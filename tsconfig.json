@@ -9,6 +9,7 @@
       "jsx": "react",
       "allowJs": true,
       "moduleResolution": "node",
+      "baseUrl": ".",
       // позволяет использовать import вместо import * as
       "allowSyntheticDefaultImports": true,
       // позволяет использовать import вместо common js 
