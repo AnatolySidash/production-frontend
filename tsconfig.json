@@ -1,0 +1,22 @@
+{
+   "compilerOptions": {
+      "outDir": "./dist/",
+      // подсвечивает места где не указан тип данных
+      "noImplicitAny": true,
+      "module": "ESNext",
+      // указывает в какую спецификацию будет компиляция: для поддержки большинства браузеров
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node",
+      // позволяет использовать import вместо import * as
+      "allowSyntheticDefaultImports": true,
+      // позволяет использовать import вместо common js 
+      "esModuleInterop": true
+   },
+   "ts-node": {
+      "compilerOptions": {
+         "module": "CommonJS"
+      }
+   }
+}
