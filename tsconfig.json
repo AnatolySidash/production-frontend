@@ -6,7 +6,7 @@
       "module": "ESNext",
       // указывает в какую спецификацию будет компиляция: для поддержки большинства браузеров
       "target": "es5",
-      "jsx": "react",
+      "jsx": "react-jsx",
       "allowJs": true,
       "moduleResolution": "node",
       "baseUrl": ".",
